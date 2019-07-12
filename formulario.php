@@ -1,7 +1,7 @@
 <?php
 
 // La sección de abajo solo se ejecuta cuando se envio el formulario
-if (isset($_POST)) {
+if (!empty($_POST)) {
 
     $nombre = $_POST['nombre'];
 
